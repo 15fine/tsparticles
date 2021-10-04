@@ -1,0 +1,1175 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Move | tsParticles - v1.35.3</title>
+	<meta name="description" content="Documentation for tsParticles - v1.35.3">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">tsParticles - v1.35.3</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">tsParticles - v1.35.3</a>
+				</li>
+				<li>
+					<a href="../modules/Options_Classes_Particles_Move_Move.html">Options/Classes/Particles/Move/Move</a>
+				</li>
+				<li>
+					<a href="Options_Classes_Particles_Move_Move.Move.html">Move</a>
+				</li>
+			</ul>
+			<h1>Class Move</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<a href="#particles-move" id="particles-move" style="color: inherit; text-decoration: none;">
+							<h1>Particles Move</h1>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>angle</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See angle documentation below</td>
+								</tr>
+								<tr>
+									<td><code>attract</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See attract documentation below</td>
+								</tr>
+								<tr>
+									<td><code>direction</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;none&quot;</code> <br /> <code>&quot;top&quot;</code> <br /> <code>&quot;top-right&quot;</code> <br /> <code>&quot;right&quot;</code> <br /> <code>&quot;bottom-right&quot;</code> <br /> <code>&quot;bottom&quot;</code> <br /> <code>&quot;bottom-left&quot;</code> <br /> <code>&quot;left&quot;</code> <br /> <code>&quot;top-left&quot;</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>distance</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See distance documentation below</td>
+								</tr>
+								<tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>gravity</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See gravity documentation below</td>
+								</tr>
+								<tr>
+									<td><code>noise</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See noise documentation below</td>
+								</tr>
+								<tr>
+									<td><code>outModes</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See out modes documentation below</td>
+								</tr>
+								<tr>
+									<td><code>random</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>size</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>speed</code></td>
+									<td><code>number</code></td>
+									<td><code>4</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>straight</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>trail</code></td>
+									<td><code>object</code></td>
+									<td></td>
+									<td>See trail documentation below</td>
+								</tr>
+								<tr>
+									<td><code>vibrate</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>warp</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-angle" id="particles-move-angle" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Angle</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>offset</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>value</code></td>
+									<td><code>number</code></td>
+									<td><code>3000</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-attract" id="particles-move-attract" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Attract</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>rotate.x</code></td>
+									<td><code>number</code></td>
+									<td><code>3000</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>rotate.y</code></td>
+									<td><code>number</code></td>
+									<td><code>1500</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-distance" id="particles-move-distance" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Distance</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>horizontal</code></td>
+									<td><code>number</code></td>
+									<td><code>50</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>vertical</code></td>
+									<td><code>number</code></td>
+									<td><code>50</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-gravity" id="particles-move-gravity" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Gravity</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>acceleration</code></td>
+									<td><code>number</code></td>
+									<td><code>9.81</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>maxSpeed</code></td>
+									<td><code>number</code></td>
+									<td><code>50</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-noise" id="particles-move-noise" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Noise</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>clamp</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>delay.value</code></td>
+									<td><code>number</code></td>
+									<td><code>1</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>delay.random.enable</code></td>
+									<td><code>number</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>delay.random.minimumValue</code></td>
+									<td><code>number</code></td>
+									<td><code>0</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>generator</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;generator name&quot;</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-out-modes" id="particles-move-out-modes" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Out Modes</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>default</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;out&quot;</code><br /> <code>&quot;destroy&quot;</code> <br /> <code>&quot;bounce&quot;</code> <br /> <code>&quot;none&quot;</code> <br /> <code>&quot;split&quot;</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>bottom</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;out&quot;</code><br /> <code>&quot;destroy&quot;</code> <br /> <code>&quot;bounce&quot;</code> <br /> <code>&quot;none&quot;</code> <br /> <code>&quot;split&quot;</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>left</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;out&quot;</code><br /> <code>&quot;destroy&quot;</code> <br /> <code>&quot;bounce&quot;</code> <br /> <code>&quot;none&quot;</code> <br /> <code>&quot;split&quot;</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>right</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;out&quot;</code><br /> <code>&quot;destroy&quot;</code> <br /> <code>&quot;bounce&quot;</code> <br /> <code>&quot;none&quot;</code> <br /> <code>&quot;split&quot;</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>top</code></td>
+									<td><code>string</code></td>
+									<td><code>&quot;out&quot;</code><br /> <code>&quot;destroy&quot;</code> <br /> <code>&quot;bounce&quot;</code> <br /> <code>&quot;none&quot;</code> <br /> <code>&quot;split&quot;</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-spin" id="particles-move-spin" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Spin</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>acceleration</code></td>
+									<td><code>number</code></td>
+									<td><code>2</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>position</code></td>
+									<td><code>object</code></td>
+									<td><code>{ x: 50, y: 50 }</code></td>
+									<td></td>
+								</tr>
+						</tbody></table>
+						<a href="#particles-move-trail" id="particles-move-trail" style="color: inherit; text-decoration: none;">
+							<h2>Particles Move Trail</h2>
+						</a>
+						<table>
+							<thead>
+								<tr>
+									<th>key</th>
+									<th>option type</th>
+									<th>example</th>
+									<th>notes</th>
+								</tr>
+							</thead>
+							<tbody><tr>
+									<td><code>enable</code></td>
+									<td><code>boolean</code></td>
+									<td><code>true</code> / <code>false</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>length</code></td>
+									<td><code>number</code></td>
+									<td><code>10</code></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><code>fillColor</code></td>
+									<td><code>color object</code></td>
+									<td></td>
+									<td>This <code>color</code> object is the same described {@links IColor</td>
+								</tr>
+						</tbody></table>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Move</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html" class="tsd-signature-type" data-tsd-kind="Interface">IMove</a></li>
+					<li><a href="../interfaces/Options_Interfaces_IOptionLoader.IOptionLoader.html" class="tsd-signature-type" data-tsd-kind="Interface">IOptionLoader</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html" class="tsd-signature-type" data-tsd-kind="Interface">IMove</a><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#angle" class="tsd-kind-icon">angle</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#attract" class="tsd-kind-icon">attract</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#decay" class="tsd-kind-icon">decay</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#direction" class="tsd-kind-icon">direction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#distance" class="tsd-kind-icon">distance</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#drift" class="tsd-kind-icon">drift</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#enable" class="tsd-kind-icon">enable</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#gravity" class="tsd-kind-icon">gravity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#outModes" class="tsd-kind-icon">out<wbr>Modes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#path" class="tsd-kind-icon">path</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#random" class="tsd-kind-icon">random</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#size" class="tsd-kind-icon">size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#speed" class="tsd-kind-icon">speed</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#spin" class="tsd-kind-icon">spin</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#straight" class="tsd-kind-icon">straight</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#trail" class="tsd-kind-icon">trail</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#vibrate" class="tsd-kind-icon">vibrate</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#warp" class="tsd-kind-icon">warp</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#bounce" class="tsd-kind-icon">bounce</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#collisions" class="tsd-kind-icon">collisions</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#noise" class="tsd-kind-icon">noise</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#outMode" class="tsd-kind-icon">out<wbr>Mode</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#out_mode" class="tsd-kind-icon">out_<wbr>mode</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Options_Classes_Particles_Move_Move.Move.html#load" class="tsd-kind-icon">load</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Move<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Options_Classes_Particles_Move_Move.Move.html" class="tsd-signature-type" data-tsd-kind="Class">Move</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L117">src/Options/Classes/Particles/Move/Move.ts:117</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="Options_Classes_Particles_Move_Move.Move.html" class="tsd-signature-type" data-tsd-kind="Class">Move</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="angle" class="tsd-anchor"></a>
+					<h3>angle</h3>
+					<div class="tsd-signature tsd-kind-icon">angle<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_MoveAngle.MoveAngle.html" class="tsd-signature-type" data-tsd-kind="Class">MoveAngle</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#angle">angle</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L98">src/Options/Classes/Particles/Move/Move.ts:98</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="attract" class="tsd-anchor"></a>
+					<h3>attract</h3>
+					<div class="tsd-signature tsd-kind-icon">attract<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_Attract.Attract.html" class="tsd-signature-type" data-tsd-kind="Class">Attract</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#attract">attract</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L99">src/Options/Classes/Particles/Move/Move.ts:99</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="decay" class="tsd-anchor"></a>
+					<h3>decay</h3>
+					<div class="tsd-signature tsd-kind-icon">decay<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#decay">decay</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L102">src/Options/Classes/Particles/Move/Move.ts:102</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="direction" class="tsd-anchor"></a>
+					<h3>direction</h3>
+					<div class="tsd-signature tsd-kind-icon">direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Directions_MoveDirection.MoveDirection.html" class="tsd-signature-type" data-tsd-kind="Enumeration">MoveDirection</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bottom&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bottomLeft&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bottomRight&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;left&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;right&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;top&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;topLeft&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;topRight&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Directions_MoveDirection.html#MoveDirectionAlt" class="tsd-signature-type" data-tsd-kind="Type alias">MoveDirectionAlt</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#direction">direction</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L100">src/Options/Classes/Particles/Move/Move.ts:100</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="distance" class="tsd-anchor"></a>
+					<h3>distance</h3>
+					<div class="tsd-signature tsd-kind-icon">distance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Core_Interfaces_IDistance.IDistance.html" class="tsd-signature-type" data-tsd-kind="Interface">IDistance</a><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#distance">distance</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L101">src/Options/Classes/Particles/Move/Move.ts:101</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="drift" class="tsd-anchor"></a>
+					<h3>drift</h3>
+					<div class="tsd-signature tsd-kind-icon">drift<span class="tsd-signature-symbol">:</span> <a href="../modules/Types_RangeValue.html#RangeValue" class="tsd-signature-type" data-tsd-kind="Type alias">RangeValue</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#drift">drift</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L103">src/Options/Classes/Particles/Move/Move.ts:103</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="enable" class="tsd-anchor"></a>
+					<h3>enable</h3>
+					<div class="tsd-signature tsd-kind-icon">enable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#enable">enable</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L104">src/Options/Classes/Particles/Move/Move.ts:104</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="gravity" class="tsd-anchor"></a>
+					<h3>gravity</h3>
+					<div class="tsd-signature tsd-kind-icon">gravity<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_MoveGravity.MoveGravity.html" class="tsd-signature-type" data-tsd-kind="Class">MoveGravity</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#gravity">gravity</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L105">src/Options/Classes/Particles/Move/Move.ts:105</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="outModes" class="tsd-anchor"></a>
+					<h3>out<wbr>Modes</h3>
+					<div class="tsd-signature tsd-kind-icon">out<wbr>Modes<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_OutModes.OutModes.html" class="tsd-signature-type" data-tsd-kind="Class">OutModes</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#outModes">outModes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L107">src/Options/Classes/Particles/Move/Move.ts:107</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="path" class="tsd-anchor"></a>
+					<h3>path</h3>
+					<div class="tsd-signature tsd-kind-icon">path<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_Path_Path.Path.html" class="tsd-signature-type" data-tsd-kind="Class">Path</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#path">path</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L106">src/Options/Classes/Particles/Move/Move.ts:106</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="random" class="tsd-anchor"></a>
+					<h3>random</h3>
+					<div class="tsd-signature tsd-kind-icon">random<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#random">random</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L108">src/Options/Classes/Particles/Move/Move.ts:108</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="size" class="tsd-anchor"></a>
+					<h3>size</h3>
+					<div class="tsd-signature tsd-kind-icon">size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#size">size</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L109">src/Options/Classes/Particles/Move/Move.ts:109</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="speed" class="tsd-anchor"></a>
+					<h3>speed</h3>
+					<div class="tsd-signature tsd-kind-icon">speed<span class="tsd-signature-symbol">:</span> <a href="../modules/Types_RangeValue.html#RangeValue" class="tsd-signature-type" data-tsd-kind="Type alias">RangeValue</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#speed">speed</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L110">src/Options/Classes/Particles/Move/Move.ts:110</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="spin" class="tsd-anchor"></a>
+					<h3>spin</h3>
+					<div class="tsd-signature tsd-kind-icon">spin<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_Spin.Spin.html" class="tsd-signature-type" data-tsd-kind="Class">Spin</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#spin">spin</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L111">src/Options/Classes/Particles/Move/Move.ts:111</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="straight" class="tsd-anchor"></a>
+					<h3>straight</h3>
+					<div class="tsd-signature tsd-kind-icon">straight<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#straight">straight</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L112">src/Options/Classes/Particles/Move/Move.ts:112</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="trail" class="tsd-anchor"></a>
+					<h3>trail</h3>
+					<div class="tsd-signature tsd-kind-icon">trail<span class="tsd-signature-symbol">:</span> <a href="Options_Classes_Particles_Move_Trail.Trail.html" class="tsd-signature-type" data-tsd-kind="Class">Trail</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#trail">trail</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L113">src/Options/Classes/Particles/Move/Move.ts:113</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="vibrate" class="tsd-anchor"></a>
+					<h3>vibrate</h3>
+					<div class="tsd-signature tsd-kind-icon">vibrate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#vibrate">vibrate</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L114">src/Options/Classes/Particles/Move/Move.ts:114</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="warp" class="tsd-anchor"></a>
+					<h3>warp</h3>
+					<div class="tsd-signature tsd-kind-icon">warp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#warp">warp</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L115">src/Options/Classes/Particles/Move/Move.ts:115</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="bounce" class="tsd-anchor"></a>
+					<h3>bounce</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> bounce<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> bounce<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#bounce">bounce</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L38">src/Options/Classes/Particles/Move/Move.ts:38</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new collisions object on particles options</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#bounce">bounce</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L46">src/Options/Classes/Particles/Move/Move.ts:46</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new collisions object on particles options</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="collisions" class="tsd-anchor"></a>
+					<h3>collisions</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> collisions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> collisions<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#collisions">collisions</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L23">src/Options/Classes/Particles/Move/Move.ts:23</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new collisions object on particles options</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#collisions">collisions</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L31">src/Options/Classes/Particles/Move/Move.ts:31</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new collisions object on particles options</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="noise" class="tsd-anchor"></a>
+					<h3>noise</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> noise<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Options_Classes_Particles_Move_Path_Path.Path.html" class="tsd-signature-type" data-tsd-kind="Class">Path</a></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> noise<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="Options_Classes_Particles_Move_Path_Path.Path.html" class="tsd-signature-type" data-tsd-kind="Class">Path</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#noise">noise</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L87">src/Options/Classes/Particles/Move/Move.ts:87</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>use the new <a href="Options_Classes_Particles_Move_Move.Move.html#path">path</a> property instead</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="Options_Classes_Particles_Move_Path_Path.Path.html" class="tsd-signature-type" data-tsd-kind="Class">Path</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#noise">noise</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L94">src/Options/Classes/Particles/Move/Move.ts:94</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>use the new <a href="Options_Classes_Particles_Move_Move.Move.html#path">path</a> property instead</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <a href="Options_Classes_Particles_Move_Path_Path.Path.html" class="tsd-signature-type" data-tsd-kind="Class">Path</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="outMode" class="tsd-anchor"></a>
+					<h3>out<wbr>Mode</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> outMode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> outMode<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#outMode">outMode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L71">src/Options/Classes/Particles/Move/Move.ts:71</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new outMode</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#outMode">outMode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L80">src/Options/Classes/Particles/Move/Move.ts:80</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new outMode</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="out_mode" class="tsd-anchor"></a>
+					<h3>out_<wbr>mode</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> out_mode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> out_mode<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#out_mode">out_mode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L54">src/Options/Classes/Particles/Move/Move.ts:54</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new outMode</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html">IMove</a>.<a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html#out_mode">out_mode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L63">src/Options/Classes/Particles/Move/Move.ts:63</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>this property is obsolete, please use the new outMode</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">&quot;bounce&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;destroy&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../enums/Enums_Modes_OutMode.OutMode.html" class="tsd-signature-type" data-tsd-kind="Enumeration">OutMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceHorizontal&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;bounceVertical&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;none&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;out&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;split&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/Enums_Modes_OutMode.html#OutModeAlt" class="tsd-signature-type" data-tsd-kind="Type alias">OutModeAlt</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="load" class="tsd-anchor"></a>
+					<h3>load</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">load<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">?: </span><a href="../modules/Types_RecursivePartial.html#RecursivePartial" class="tsd-signature-type" data-tsd-kind="Type alias">RecursivePartial</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html" class="tsd-signature-type" data-tsd-kind="Interface">IMove</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/Options_Interfaces_IOptionLoader.IOptionLoader.html">IOptionLoader</a>.<a href="../interfaces/Options_Interfaces_IOptionLoader.IOptionLoader.html#load">load</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/matteobruni/tsparticles/blob/512bba4e2/engine/src/Options/Classes/Particles/Move/Move.ts#L138">src/Options/Classes/Particles/Move/Move.ts:138</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This load method is used to load [[data]] in the classes used as generic</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> data: <a href="../modules/Types_RecursivePartial.html#RecursivePartial" class="tsd-signature-type" data-tsd-kind="Type alias">RecursivePartial</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/Options_Interfaces_Particles_Move_IMove.IMove.html" class="tsd-signature-type" data-tsd-kind="Interface">IMove</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Modules</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/Options_Classes_Particles_Move_Move.html">Options/<wbr>Classes/<wbr>Particles/<wbr>Move/<wbr>Move</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="Options_Classes_Particles_Move_Move.Move.html" class="tsd-kind-icon">Move</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#angle" class="tsd-kind-icon">angle</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#attract" class="tsd-kind-icon">attract</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#decay" class="tsd-kind-icon">decay</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#direction" class="tsd-kind-icon">direction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#distance" class="tsd-kind-icon">distance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#drift" class="tsd-kind-icon">drift</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#enable" class="tsd-kind-icon">enable</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#gravity" class="tsd-kind-icon">gravity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#outModes" class="tsd-kind-icon">out<wbr>Modes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#path" class="tsd-kind-icon">path</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#random" class="tsd-kind-icon">random</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#size" class="tsd-kind-icon">size</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#speed" class="tsd-kind-icon">speed</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#spin" class="tsd-kind-icon">spin</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#straight" class="tsd-kind-icon">straight</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#trail" class="tsd-kind-icon">trail</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#vibrate" class="tsd-kind-icon">vibrate</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#warp" class="tsd-kind-icon">warp</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#bounce" class="tsd-kind-icon">bounce</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#collisions" class="tsd-kind-icon">collisions</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#noise" class="tsd-kind-icon">noise</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#outMode" class="tsd-kind-icon">out<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#out_mode" class="tsd-kind-icon">out_<wbr>mode</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Options_Classes_Particles_Move_Move.Move.html#load" class="tsd-kind-icon">load</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-161253125-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "8q4bxin4tm");
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1784552607103901"
+crossorigin="anonymous"></script>
+</body>
+</html>
